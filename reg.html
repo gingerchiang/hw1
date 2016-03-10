@@ -7,21 +7,23 @@
 </head>
 <body>
 	<form action="mailto:art_center@nccu.edu.tw" method="post">
-	名字：<input name="myname" value="" required="required" placeholder="請填姓名" maxlength=10><p>
-	學院：<select name="major">
-		<option value="art" >文學院</option>
-		<option value="science">理學院</option>
-		<option value="css">社會科學學院</option>
-		<option value="law">法學院</option>
-		<option value="commerce">商學院</option>
-		<option value="foreign">外國語文學院</option>
-		<option value="comm">傳播學院</option>
-		<option value="ocia">國際事務學院</option>
-		<option value="educ">教育學院</option>
-	</select><p>
-	手機：<input name="phone" pattern=[0-9]{10} size=8 maxlength=10 required="required" placeholder="請填手機"><p>
-	信箱：<input name="mail" pattern=[0-9]{10} size=8 maxlength=10 required="required" placeholder="請填信箱"><p>
+	名字：<input name="myname" value="" required="required" placeholder="請填姓名" maxlength="10"><p>
+	學院：<input type="text" id="major" name="major" placeholder="文學院" autocomplete="off" list="major_nccu" required="required" >
+	<datalist id="major_nccu">
+		<option value="文學院">文學院</option>
+		<option value="理學院">理學院</option>
+		<option value="社會科學學院">社會科學學院</option>
+		<option value="法學院">法學院</option>
+		<option value="商學院">商學院</option>
+		<option value="外國語文學院">外國語文學院</option>
+		<option value="傳播學院">傳播學院</option>
+		<option value="國際事務學院">國際事務學院</option>
+		<option value="教育學院">教育學院</option>
+	</datalist><p>
+	手機：<input name="phone" pattern=[0-9]{10} size="20" maxlength="10" required="required" placeholder="0912345678"><p>
+	信箱：<input type="email" name="mail" size="30" required="required" placeholder="art.center@nccu.edu.tw"><p>
+	生日：<input type="date" name="bday" max="1911-01-01" min="2016-03-10" size="20"><p>
 	
-	<button type="submit" value="送出表單">送出</button>
+	<input type="submit" value="送出表單">
 </form>
 </body>
