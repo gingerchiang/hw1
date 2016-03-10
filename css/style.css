@@ -1,0 +1,279 @@
+html{
+	width: 70%;
+	margin: 0 auto;
+	font-family: "Microsoft JhengHei",Arial, Verdana, Helvetica, sans-serif;
+}
+
+html > body > header{
+	position: relative;
+}
+
+html > body > header > a > img{
+	height: 80px;
+	border: 0;
+}
+
+#logo_1{
+	width: 169px;
+}
+
+#logo_2{
+	width: 299px;
+}
+
+html > body > header > div{
+	float: right;
+}
+
+html > body > header > div > a{
+	font-size: 12px;
+	color: #555555;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+html > body > header > div > a:hover{
+	color: #F29417;
+}
+
+#up-bar{
+	position: absolute;
+	top: 20px;
+	right: 1px;
+	border-bottom: 1px #555555 dotted;
+}
+
+#down-bar{
+	position: absolute;
+	top: 50px;
+	right: 1px;
+}
+
+html > body > header > nav{
+	width: 100%;
+	padding: 5px 20px;
+}
+
+html > body > header > nav > ul{
+}
+
+html > body > header > nav > ul > li{
+	display: table-cell;
+	text-decoration: none;
+	padding: 5px 20px;
+	color: #FFFFFF;
+	font-weight: 700;
+}
+
+.nav-gray{
+	background-color: #999999;	
+}
+
+.nav-gray:hover{
+	background-color: #CCCCCC;	
+}
+
+.nav-orange{
+	background-color: #F29417;
+}
+
+.nav-orange:hover{
+	background-color: #F4C51C;
+}
+
+.hover_none:hover{
+	background-color: #F29417;
+}
+
+#air_photo{
+	width: 300px; 
+	height: 43px; 
+	border: 0;
+	margin: 20px 40px; 
+}
+
+.green_arrow{
+	width: 10px;
+	height: 10px;
+	border: 0;
+}
+
+#tab_left{
+	float: right;
+	margin: 10px;
+}
+
+#tab_left > a{
+	text-decoration: none;
+	color: #339933;
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+
+#tab_right{
+	float: right;
+	margin: 10px;
+}
+
+#tab_right > a{
+	text-decoration: none;
+	color: #339933;
+	font-size: 13px;
+	letter-spacing: 1px;
+
+}
+
+#main{
+	margin: 10px;
+}
+
+
+
+#concert_banner{
+	width: inherit;  
+	height: 25px; 
+	border: 0;
+	margin: 0 auto;
+}
+
+#main_banner{
+	display: inline-table;
+	width: 100%;
+}
+
+#main_desc{
+	display: inline-block;
+	width: 180px;
+	height: 240px;
+	background-color: #000000;
+}
+
+#main_desc > h6{
+	color: #F29417;
+}
+
+#main_desc > p{
+	color: #FFFFFF;
+	font-size: 8px;
+	line-height: 1;
+	padding-left: 5px;
+}
+
+#main_desc > img{
+	display: inline-block;
+}
+
+table{
+	text-align: center;
+	width: 70%;
+	margin-bottom: 20px;
+}
+
+.table_gray{
+	background-color: #EEF5DF;
+}
+
+.table_green{
+	background-color: #99CC00;
+}
+
+.performers{
+	position: relative;
+	width: 70%;
+	margin-top: 20px;
+}
+
+.ps{
+	display: inline-block;
+}
+
+.desc{
+	width: 50%;
+	float: right;
+	font-size: 12px;
+	line-height: 18px;
+	color: #333333; 
+	padding: 0 2px;
+	line-height: 1.2;
+	position: absolute;
+	top: 6%;
+	right: 0%;
+}
+
+#ten{
+	padding: 80px 0;
+	background-color: #000000;
+}
+
+.green_title{
+	color: #669933;
+	font-size: 15px;
+}
+
+.performers > img{
+	margin: 100px 0;
+}
+
+.orange_title{
+	color: #F29417;
+	font-size: 12px;
+}
+
+aside{
+	position: absolute;
+	float: right;
+	top: 550px;
+	right: 7%;
+	width: 25%;
+	border-top: 2px #669933 solid;
+	background-color: #EEF5DF;
+	font-size: 12px;
+	padding: 12px; 
+}
+
+.gray_title{
+	color: #666666;
+	font-size: 12px;
+}
+
+footer{
+	position: relative;
+	margin: 100px 0;
+}
+
+#footer_img{
+	position: absolute;
+	bottom: -40px;
+}
+
+#footer_desc{
+	position: absolute;
+	left: 20%;
+	font-size: 12px;
+	line-height: 0.5;
+}
+
+#footer_nav_up{
+	position: absolute;
+	right: 0%;
+	font-size: 12px;
+}
+
+#footer_nav_down{
+	position: absolute;
+	right: 0%;
+	font-size: 12px;
+	bottom: -40px;
+}
+
+footer > nav > a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #333333;
+	border-right: 1px #333333 solid;
+	padding-right: 2px; 
+}
+
+footer > nav > a:hover{
+	color: #F29417;
+}
